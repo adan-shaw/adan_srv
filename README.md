@@ -4,6 +4,6 @@
 # so welcome you to comment,give me some good advice ...
 # and maybe you can give me a job ...
 
-# If this project has any infringement, please let me know.here's our contact email.
+# If this project has any infringement, please let me know, here's our contact email, thank you.
 
-# email:adan_shaw@qq.com, thank you.
+# email:adan_shaw@qq.com.
