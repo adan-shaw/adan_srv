@@ -10,6 +10,7 @@
 # and if you want to reprint this project please indicate the source from https://github.com/adan-shaw/adan_srv
 # ***********************************
 # how to use ?
+# make clean
 # make x3_cli (gmake)
 # chmod 755 ./x3_cli
 # ./x3_cli
