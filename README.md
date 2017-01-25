@@ -14,3 +14,11 @@
 # chmod 755 ./x3
 # ./x3
 # input number 1 choose command_1 to start the service
+# ***********************************
+# how to change the running mode of this server ?
+# 1.add service io pthread:
+# open static_val.h
+# change #define pool_max 4 or 8 or 2 or ...
+# 2.simulation business operation time consuming:
+# open pickup_data.c
+# change usleep(100);//0.1ms 
