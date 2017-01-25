@@ -17,5 +17,5 @@
 # input number 1 choose command_1 to start the test_box
 # input the x_number
 # input the y_number
-# test_count = x*y
+# test_count = x*6*y
 # 
