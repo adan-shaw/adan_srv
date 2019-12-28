@@ -4,19 +4,19 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../array_queue.c \
-../array_stack.c \
-../encode.c \
-../get_random.c \
-../hide_data.c \
-../if_event.c \
-../inet_listen.c \
-../main.c \
-../main_func.c \
-../open_data.c \
-../pickup_data.c \
-../pthread_listen.c \
-../pthread_recv.c 
+./array_queue.c \
+./array_stack.c \
+./encode.c \
+./get_random.c \
+./hide_data.c \
+./if_event.c \
+./inet_listen.c \
+./main.c \
+./main_func.c \
+./open_data.c \
+./pickup_data.c \
+./pthread_listen.c \
+./pthread_recv.c 
 
 OBJS += \
 ./array_queue.o \
@@ -50,7 +50,7 @@ C_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-%.o: ../%.c
+%.o: ./%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C Compiler'
 	gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
