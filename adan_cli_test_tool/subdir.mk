@@ -4,15 +4,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../encode.c \
-../get_random.c \
-../hide_data.c \
-../inet_connect.c \
-../main.c \
-../main_func.c \
-../open_data.c \
-../send_once.c \
-../time.c 
+./encode.c \
+./get_random.c \
+./hide_data.c \
+./inet_connect.c \
+./main.c \
+./main_func.c \
+./open_data.c \
+./send_once.c \
+./time.c 
 
 OBJS += \
 ./encode.o \
@@ -38,7 +38,7 @@ C_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-%.o: ../%.c
+%.o: ./%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C Compiler'
 	gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
